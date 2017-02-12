@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<title>Galicia geotérmica</title>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<div class="content_body">
+	<div class="content_header">
+		<img src="imagenes/logo.jpg" alt="Galicia Geotermica" width="698" height="137">
+	</div>
+	<div class="body_central">
+		<div class="body_menu">
+			<div class="menu_header"><img src="imagenes/logo-menu.jpg" alt="menu" width="188" height=""41></div>
+			<div class="menu_body">
+				<ul class="menu">
+					<a href="index.html"><li>Presentación</li></a>
+					<a href="como_funciona.html"><li>¿Cómo funciona?</li></a>
+					<a href="confort.html"><li>Mayor confort</li></a>
+					<a href="agua_caliente.html"><li>Agua caliente</li></a>
+					<a href="captacion_horizontal.html"><li>Captación horizontal</li></a>
+					<a href="captacion_vertical.html"><li>Captación vertical</li></a>
+					<a href="obras.html"><li>Obras realizadas</li></a>
+					<a href="galeria.html"><li>Galeria de imágenes</li></a>
+					<a href="presupuestos.html"><li class="selected">Presupuestos</li></a>
+				</ul>
+			</div>	
+		</div>
+		<div class="body_text">
+			<form method="POST" action="http://servicios.todohacker.com/galiciageotermica">
+				<table border="0">
+					<tr>
+						<td colspan="2" align="center"><h2>¿Desea conocer el coste de su instalación?</h2></td>
+					</tr>
+					<tr>
+						<td><b>SUS DATOS</b></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>Nombre</td>
+						<td><input type="text"  maxlength="255" size="74" name="nombre"></td>
+					</tr>
+					<tr>
+						<td>Apellidos</td>
+						<td><input type="text"  maxlength="255" size="74" name="apellidos"></td>
+					</tr>
+					<tr>
+						<td>Dirección</td>
+						<td><input type="text"  maxlength="255" size="74" name="direccion"></td>
+					</tr>
+					<tr>
+						<td>Código postal</td>
+						<td><input type="text"  maxlength="6" size="10" name="codigop"></td>
+					</tr>
+					<tr>
+						<td>Télefono</td>
+						<td><input type="text"  maxlength="10" size="28" name="telefono"></td>
+					</tr>
+					<tr>
+						<td>Fax</td>
+						<td><input type="text"  maxlength="10" size="28" name="fax"></td>
+					</tr>
+					<tr>
+						<td>Email*</td>
+						<td><input type="text"  maxlength="50" size="28" name="email"><div style="font-size:11px;">(Asegúrese de insertar un correo válido)</div></td>
+					</tr>
+					<tr>
+						<td><b>PROYECTO</b></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<table border="0">
+								<tr>
+									<td>Lugar (cod. postal): </td>
+									<td style="width:150px"><input name="ppostal" maxlength="6" size="7" type="text"> </td>
+									<td>Ciudad de la intalación: </td>
+									<td><input name="pciudad" maxlength="150" size="23" type="text"> </td>
+								</tr>
+								<tr>
+									<td>Nº de personas: </td>
+									<td><input name="ppersonas" maxlength="6" size="7" type="text"> </td>
+									<td>Altitud: </td>
+									<td><input name="pciudad" maxlength="6" size="7" type="text">m </td>
+								</tr>
+								<tr>
+									<td>Nº de plantas </td>
+									<td>
+										<select name=nplanta size=1>
+											<option selected value=1>1</option>
+											<option value=2>2</option>
+											<option value=3>3</option>
+											<option value=4>4</option>
+										</select>
+									</td>
+									<td>Tipo de construcción </td>
+									<td>
+										<select name=Tipo size=1>
+											<option selected value=Nueva>Nueva</option>
+											<option value=Renovación>Renovación</option>
+										</select>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td><b>HABITACIONES</b></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+					
+					</tr>
+						<td colspan="2">
+							<table border="0">
+								<tr>
+									<td>Pieza 1 descripción:</td>
+									<td><input name="pieza1_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza1_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza1_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+								<tr>
+									<td>Pieza 2 descripción:</td>
+									<td><input name="pieza2_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza2_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza2_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+								<tr>
+									<td>Pieza 3 descripción:</td>
+									<td><input name="pieza3_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza3_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza3_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+								<tr>
+									<td>Pieza 4 descripción:</td>
+									<td><input name="pieza4_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza4_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza4_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+								<tr>
+									<td>Pieza 5 descripción:</td>
+									<td><input name="pieza5_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza5_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza5_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+								<tr>
+									<td>Pieza 6 descripción:</td>
+									<td><input name="pieza6_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza6_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza6_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+								<tr>
+									<td>Pieza 6 descripción:</td>
+									<td><input name="pieza6_desc" maxlength="255" size="14" type="text">&nbsp; </td>
+									<td>Superficie (m2):</td>
+									<td><input name="pieza6_sup" maxlength="255" size="6" type="text">&nbsp; </td>
+									<td>Volumen (m3):</td>
+									<td><input name="pieza6_vol" maxlength="255" size="6" type="text">&nbsp; </td>
+								</tr>
+							</table>
+						</td>
+					<tr>
+						<td><b>COMENTARIOS</b></td>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="2"><textarea name="comentarios" rows="5" cols="84"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="right"><input type="submit" value="Enviar"></td>
+					</tr>
+					
+				
+				</table>
+			</form>
+		</div>
+		<div class="nofloat"></div>
+	</div>
+	<div class="content_footer">
+		Galicia Geotérmica, S. L C/ Ramón Menéndez Pidal, 3 15007 LA CORUÑA<br />
+		Tel/Fax. 981 912 437 -  Móvil 649 822 350<br />
+		E: mail: geogalicia@mundo-r.com -  www.galiciageotermica.com<br />
+	</div>
+</div>
+
+</body>
+</html>
+
+<!--
+	CopyRight: galiciageotermica.com
+	Imagenes, logos y texto son propiedad de galiciageotermica.com
+	Desarrollado por Tuamigo (4m1g0) <casadelblanco@gmail.com>
+	Web: www.todohacker.com
+	Fecha: 24/11/2011
+	Versión: 1.0
+-->
